@@ -26,5 +26,10 @@ namespace HelloWorld
         {
             this.InitializeComponent();
         }
+
+        private void ClickMe_Click(object sender, RoutedEventArgs e)
+        {
+            this.HelloMessage.Text = "Hello, Windows IoT Core!";
+        }
     }
 }
